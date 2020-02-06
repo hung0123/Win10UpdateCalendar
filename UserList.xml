@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<UserList>
+  <User>
+    <UserID>ALTON</UserID>
+    <UserDesc>測試人員一</UserDesc>
+    <Dept_Id>S110</Dept_Id>
+    <Dept_Id2>S111</Dept_Id2>
+    <EMP_NO>0074</EMP_NO>
+    <p_auth_level>1</p_auth_level>
+    <data_level>1</data_level>
+  </User>
+  <User>
+    <UserID>CARRIE</UserID>
+    <UserDesc>測試人員二</UserDesc>
+    <Dept_Id>S110</Dept_Id>
+    <Dept_Id2>S111</Dept_Id2>
+    <EMP_NO>0214</EMP_NO>
+    <p_auth_level>2</p_auth_level>
+    <data_level>2</data_level>
+  </User>  
+</UserList>

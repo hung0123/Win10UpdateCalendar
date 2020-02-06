@@ -1,0 +1,184 @@
+﻿/* ===========================================
+                Body
+============================================== */
+body
+{
+    background-color: #FFFFF0;
+}
+/* ===========================================
+                Input Control
+============================================== */
+.inp, .inp > option
+{
+    border: 1px solid #bbb;
+    background: #fff; 
+    width:100px; padding:3px;
+}
+.inp[StyleStatus="Disable"], .inp[StyleStatus="Disable"] > option
+{
+    background-color:#f6f5ea; border:1px solid #c9c7ba; color:#999999;
+}
+.inp[StyleStatus="Invalid"], .inp[StyleStatus="Invalid"] > option
+{
+    width:100px; padding:3px; border:1px solid #B50000;
+}
+
+.inp:focus, .inp:focus > option
+{
+    width:100px;
+    padding:3px;
+    background-color:#feffcc;
+}
+
+/* ===========================================
+                Option Control
+============================================== */
+.opt, .opt > option
+{
+    border: 1px solid #bbb;
+    background: #fff; 
+    width:100px; padding:3px;
+}
+.opt[StyleStatus="Disable"], .opt[StyleStatus="Disable"] > option
+{
+    background-color:#f6f5ea; border:1px solid #c9c7ba; color:#999999;
+}
+.opt[StyleStatus="Invalid"], .opt[StyleStatus="Invalid"] > option
+{
+    width:100px; border:1px solid #B50000;
+}
+
+/* ===========================================
+                Button Control
+============================================== */
+.btn
+{
+    
+}
+.btn:hover
+{
+   
+}
+.btn[StyleStatus="Disable"]
+{
+   
+}
+a
+{
+  
+}
+a:visited
+{
+   
+}
+a:hover
+{
+    
+}
+/* ===========================================
+                Grid Control
+============================================== */
+.t{ background-color:#407000; border:1px;}
+.gv
+{
+    font-size:13px; 
+    border:1px solid #fff;
+
+}
+.gvHead
+{ 
+    background-color:#8cc63e; 
+    color: #003300; 
+    height:25px;
+    border:1px solid #fff;
+	
+}
+.gvFoot
+{
+    background-color:#8cc63e; 
+    height:25px;
+    border:1px solid #fff;
+}
+.gvRow
+{
+    background-color:#FFFFFF; 
+    height:25px; 
+    border:1px solid #fff;
+}
+.gvAlternate
+{
+    background-color:#EDEAD3; 
+    height:25px;
+    border:1px solid #fff;
+}
+.gvSelect
+{
+    background-color:#FFD71A;
+    height:25px;
+    border:1px solid #fff;
+} 
+/* ===========================================
+                Tab Control
+============================================== */
+.ajax__tab_tab:hover
+{
+    
+}
+.ajax__tab_panel
+{
+   
+}
+
+/* ===========================================
+                Pattern(查詢、維護、開窗共用)
+============================================== */
+
+.Pattern
+{
+    background-color:#FFFFFF; 
+    color: #333333;
+    text-align:left;
+}
+.Pattern .Head
+{
+    background: rgb(57,130,53);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#398235', endColorstr='#c9de96',GradientType=1 );
+    color: #FFFFFF;
+    padding-left:15px; 
+    height:25px;
+}
+.Pattern .Label
+{
+    padding-left:20px; 
+    border-bottom:2px solid #c0cead;
+    color: #333333; 
+    font-size: 13px; 
+    background-image: url(../Image/03.gif); 
+    height:30px; 
+}
+.Pattern .Context
+{
+    border-bottom:2px solid #c0cead;    
+}
+.Pattern .Foot
+{ 
+    background-color:#BCE685;
+    text-align:center;
+    height:30px;
+}
+
+
+/* ===========================================
+        Pattern(開窗): ModalPopupBackground
+============================================== */
+.modalBackground
+{
+	
+}
+/* ===========================================
+        Pattern(開窗): ModalPopupWindow
+============================================== */
+.modalWindow
+{
+	
+}

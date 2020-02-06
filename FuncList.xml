@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<FuncList>
+  <Func>
+    <FuncId>Manage</FuncId>
+    <FuncName>管理介面</FuncName>
+    <FuncPage>Manage.aspx</FuncPage>
+  </Func>
+  <Param>
+    <FuncId>HR_15_1_5</FuncId>
+    <ParamID>DEPT_ID2</ParamID>
+    <ParamDefault>S120</ParamDefault>
+    <ParamDesc></ParamDesc>
+  </Param>
+  <Func>
+    <FuncId>Order</FuncId>
+    <FuncName>Order頁面</FuncName>
+    <FuncPage>Order.aspx</FuncPage>
+  </Func>
+</FuncList>

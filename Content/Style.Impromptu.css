@@ -1,0 +1,391 @@
+﻿/*
+------------------------------
+	InformationJqi
+------------------------------
+*/
+.ErrorJqifade
+{
+    position: absolute;
+    background-color: #777777;
+}
+div.ErrorJqi
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-image: url(../Image/Message/Error.png);
+    font-size: 11px;
+    text-align: left;
+    padding-right: 20px;
+    width:419px;
+    height:236px;
+}
+div.ErrorJqi .ErrorJqiclose
+{
+    display: none;
+}
+div.ErrorJqi .ErrorJqicontainer
+{
+    font-weight: bold;
+}
+div.ErrorJqi .ErrorJqimessage
+{
+	/*
+    width: 320px;
+    height: 180px;
+	padding-top: 55px;
+    padding-left: 200px;
+	*/
+	width: 269px;
+    height: 106px;
+    padding-top: 55px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-align:left;
+}
+div.ErrorJqi .ErrorJqibuttons
+{
+     /*width: 500px;*/
+    width:399px;
+    height: 64px;
+    text-align: center;
+    /*padding: 5px 0 5px 20px;*/
+    padding: 5px 0 5px 20px;
+}
+div.ErrorJqi button
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnError.gif);
+    border-style: none;
+    /*width: 118px;
+    height: 48px;*/
+    width: 103px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*
+div.ErrorJqi button:hover
+{
+    background-image: url(../Image/Message/btnError_hover.gif);
+}
+*/
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+div.QuestionJqi .ErrorJqibuttonsYes
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnError.gif);
+    border-style: none;
+    width: 103px;
+    height: 32px;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+/*
+------------------------------
+	InformationJqi
+------------------------------
+*/
+.InformationJqifade
+{
+    position: absolute;
+    background-color: #777777;
+}
+div.InformationJqi
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-image: url(../Image/Message/Information.png);
+    font-size: 11px;
+    text-align: left;
+    padding-right: 20px;
+    width:419px;
+    height:236px;
+}
+div.InformationJqi .InformationJqiclose
+{
+    display: none;
+}
+div.InformationJqi .InformationJqicontainer
+{
+    font-weight: bold;
+}
+div.InformationJqi .InformationJqimessage
+{
+    /*
+    width: 320px;
+    height: 180px;
+	padding-top: 55px;
+    padding-left: 200px;
+	*/
+	width: 269px;
+    height: 106px;
+    padding-top: 55px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-align:left;
+}
+div.InformationJqi .InformationJqibuttons
+{
+     /*width: 500px;*/
+    width:399px;
+    height: 64px;
+    text-align: center;
+    /*padding: 5px 0 5px 20px;*/
+    padding: 5px 0 5px 20px;
+}
+div.InformationJqi button
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnInformation.gif);
+    border-style: none;
+    /*width: 118px;
+    height: 48px;*/
+    width: 103px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*
+div.InformationJqi button:hover
+{
+    background-image: url(../Image/Message/btnInformation_hover.gif);
+}
+*/
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+div.QuestionJqi .InformationJqibuttonsYes
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnInformation.gif);
+    border-style: none;
+    width: 103px;
+    height: 32px;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+/*
+------------------------------
+	NoneJqi
+------------------------------
+*/
+.NoneJqifade
+{
+    position: absolute;
+    background-color: #777777;
+}
+div.NoneJqi
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-image: url(../Image/Message/None.png);
+    font-size: 11px;
+    text-align: left;
+    padding-right: 20px;
+    width:419px;
+    height:236px;
+}
+div.NoneJqi .NoneJqiclose
+{
+    display: none;
+}
+div.NoneJqi .NoneJqicontainer
+{
+    font-weight: bold;
+}
+div.NoneJqi .NoneJqimessage
+{
+	/*
+    width: 500px; //padding-left: 200px;
+    height: 180px;
+	padding-top: 55px;
+    padding-left: 20px;
+	*/
+	width: 449px;
+    height: 106px;
+    padding-top: 55px;
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-align:center;
+}
+div.NoneJqi .NoneJqibuttons
+{
+     /*width: 500px;*/
+    width:399px;
+    height: 64px;
+    text-align: center;
+    /*padding: 5px 0 5px 20px;*/
+    padding: 5px 0 5px 20px;
+}
+div.NoneJqi button
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnNone.gif);
+    border-style: none;
+    /*width: 118px;
+    height: 48px;*/
+    width: 103px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*
+div.NoneJqi button:hover
+{
+    background-image: url(../Image/Message/btnNone_hover.gif);
+}
+*/
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+div.QuestionJqi .NoneJqibuttonsYes
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnNone.gif);
+    border-style: none;
+    width: 103px;
+    height: 32px;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+/*
+------------------------------
+	QuestionJqi
+------------------------------
+*/
+.QuestionJqifade
+{
+    position: absolute;
+    background-color: #777777;
+}
+div.QuestionJqi
+{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-image: url(../Image/Message/Question.png);
+    font-size: 11px;
+    text-align: left;
+    padding-right: 20px;
+    width:419px;
+    height:236px;
+}
+div.QuestionJqi .QuestionJqiclose
+{
+    display: none;
+}
+div.QuestionJqi .QuestionJqicontainer
+{
+    font-weight: bold;
+}
+div.QuestionJqi .QuestionJqimessage
+{
+	/*
+    width: 320px;
+    height: 180px;
+	padding-top: 55px;
+    padding-left: 200px;
+	*/
+	width: 269px;
+    height: 106px;
+    padding-top: 55px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    text-align:left;
+}
+div.QuestionJqi .QuestionJqibuttons
+{
+    /*width: 500px;*/
+    width:399px;
+    height: 64px;
+    text-align: center;
+    /*padding: 5px 0 5px 20px;*/
+    padding: 5px 0 5px 20px;
+}
+
+div.QuestionJqi button
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnQuestion.gif);
+    border-style: none;
+    /*width: 118px;
+    height: 48px;*/
+    width: 94px;
+    height: 32px;
+    font-family: 微軟正黑體;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*
+div.QuestionJqi button:hover
+{
+    background-image: url(../Image/Message/btnQuestion_hover.gif);
+}
+*/
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+div.QuestionJqi .QuestionJqibuttonsYes
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnQuestionYes.gif);
+    border-style: none;
+    width: 94px;
+    height: 32px;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+div.QuestionJqi .QuestionJqibuttonsNo
+{
+    background-color: #000000;
+    background-image: url(../Image/Message/btnQuestionNo.gif);
+    border-style: none;
+    width: 94px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*因應按鈕變更成使用圖片新增按摩CSS*/
+/*下載處理中*/
+div.WaitingJqi
+{
+	width: 435px;
+    height: 260px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-image: url(../Image/Message/None.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-width: 0px; 
+    text-align: center;
+}
+.WaitingJqi .WaitingJqimessage
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 90px;
+}

@@ -1,0 +1,403 @@
+﻿/* ===========================================
+                Body
+============================================== */
+body
+{
+    background-color: #f8f8ff;
+    margin: 0px;
+	font:"細明體";
+	font-size: 12px; 
+}
+/* ===========================================
+                Input Control
+============================================== */
+.cv
+{
+    overflow: visible;
+    white-space: nowrap;
+    padding: 0px;
+    text-align: left;
+}
+
+.inp, .readonly
+{
+    background-color: #c0c0c0;
+    border: 1px solid #9f9f9f;
+    color: #000000;
+}
+
+.inp, .inp > option
+{
+    font-size: 12px;
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 1px;
+}
+
+.inp[StyleStatus="Disable"], .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+
+
+.inp[StyleStatus="Invalid"], .inp[StyleStatus="Invalid"] > option
+{
+    padding: 1px;
+    border: 1px solid #B50000;
+}
+
+.inp:focus, .inp:focus > option
+{
+    padding: 1px;
+   /* background-color: #feffcc; */ 
+}
+
+/* ===========================================
+                Option Control
+============================================== */
+.opt, .opt > option
+{
+    font-size: 12px;
+    background: #fff;
+    padding: 1px;
+}
+.opt[StyleStatus="Disable"], .opt[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+.opt[StyleStatus="Invalid"], .opt[StyleStatus="Invalid"] > option
+{
+    border: 1px solid #B50000;
+}
+.opt:focus, .opt:focus > option
+{
+    height: 20px;
+    padding: 1px;
+   /* background-color: #feffcc; */
+}
+
+/* ===========================================
+                Button Control
+============================================== */
+.btn
+{
+	/*background-color: #f6f5ea;*/
+	/*height:21px;*/
+	/*color:#000;*/
+	/*font-size: 12px;*/
+	/*border:none;*/
+	/*margin:0px 20px 0px 0px;*/
+}
+.btn + .btn
+{
+	margin:0px 0px 0px 10px;
+}
+
+.btn:hover
+{
+}
+.btn[StyleStatus="Disable"]
+{
+}
+a
+{
+}
+a:visited
+{
+}
+a:hover
+{
+}
+/* ===========================================
+                Grid Control
+============================================== */
+.t  
+{   border: 1px solid #333333;	
+}
+.gv
+{
+    font-size: 12px; 
+	color: #000000;
+	/*background-color:#666666;	*/
+	background-color: #FFFFFF;
+}
+.gv th , .gv td
+{
+	border: 1px solid #9f9f9f; 
+	border-collapse:collapse;
+	height: 22px;
+}
+.gv a:link    { color: #000000; text-decoration: underline; }
+.gv a:visited { color: #000000; text-decoration: underline; }
+.gv a:hover   { color: #DB4100; text-decoration: underline; }
+.gv a:active  { color: #DB4100; text-decoration: underline; }
+.gvHead
+{    
+    background-color: #dcdcdc;
+	padding: 3px 10px 3px 10px;
+}
+.gvFoot
+{
+    background-color: #83c2e0;
+}
+.gvRow { font-family: "Verdana", "新細明體"; font-size: 12px; color: #000000; line-height: 24px; background-color: #FFFFFF; padding: 3px 10px 3px 10px;}
+/*.gvRow a:link    { color: #37659B; text-decoration: underline; }
+.gvRow a:visited { color: #37659B; text-decoration: underline; }
+.gvRow a:hover   { color: #DB4100; text-decoration: underline; }
+.gvRow a:active  { color: #DB4100; text-decoration: underline; }
+.gvAlternate { font-family: "Verdana", "新細明體"; font-size: 12px; color: #000000; line-height: 24px; background-color: #ffffff; padding: 3px 10px 3px 10px;}
+.gvAlternate a:link    { color: #37659B; text-decoration: underline; }
+.gvAlternate a:visited { color: #37659B; text-decoration: underline; }
+.gvAlternate a:hover   { color: #DB4100; text-decoration: underline; }
+.gvAlternate a:active  { color: #DB4100; text-decoration: underline; }*/
+.gvSelect
+{
+	  background-color: #8d8d8d;
+	  color:#ffffff;
+	  /*font-weight:bold;*/
+}
+/*.gvSelect a:link    { color: #37659B; text-decoration: underline; }
+.gvSelect a:visited { color: #37659B; text-decoration: underline; }
+.gvSelect a:hover   { color: #DB4100; text-decoration: underline; }
+.gvSelect a:active  { color: #DB4100; text-decoration: underline; }*/
+/* ===========================================
+                PagePaging
+============================================== */
+.PagePaging
+{
+    font-size: 12px;
+	
+}
+
+PagePaging .inp, PagePaging .inp > option
+{
+    font-size: 12px;
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 3px;
+}
+PagePaging .inp[StyleStatus="Disable"],PagePaging .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    /*color: #999999;*/
+	color: #0000000;
+}
+PagePaging .inp[StyleStatus="Invalid"],PagePaging .inp[StyleStatus="Invalid"] > option
+{
+    padding: 3px;
+    border: 1px solid #B50000;
+}
+
+PagePaging .inp:focus,PagePaging .inp:focus > option
+{
+    padding: 3px;
+    background-color: #feffcc;
+}
+.PageButtons
+{
+    font-size: 12px;
+}
+.PageButtons td { vertical-align:middle;}
+.PageButtons a:link    { font-size: 12px; text-decoration: none; color:#0066cc;}
+.PageButtons a:hover   { font-size: 12px; text-decoration: underline; color:#0066cc;}
+.PageButtons a:active  { font-size: 12px; text-decoration: underline; color:#0066cc;}
+
+.PageButtons .Menu{ font-size: 12px; text-decoration: none; color:#0066cc;}
+.PageButtons .MenuHover{font-size: 12px; text-decoration: underline; color:#0066cc;}
+
+
+
+/* ===========================================
+                Tab Control
+============================================== */
+.ajax__tab_tab
+{
+    font-size: 15px;
+}
+.ajax__tab_tab:hover
+{
+    font-size: 15px;
+}
+.ajax__tab_panel
+{
+    font-size: 15px;
+}
+
+/* ===========================================
+                Pattern(查詢、維護、開窗共用)
+============================================== */
+
+.Pattern
+{
+    color: #000000;
+    text-align: left;
+}
+.Pattern .Head
+{   padding: 0px 7px 0px 7px;
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 10pt; 
+	background-color: #ffefd5; 
+	COLOR: #00008a;
+	height:25px;
+}
+.Pattern .Label
+{   font-size: 12px; 
+	color: #000000; 
+	background-image:url(../Image/gray_title.gif);
+	padding: 3px 10px 3px 10px;
+	text-align:right;
+}
+.Pattern .Context
+{   font-size: 12px; 
+	color: #000000; 
+	background-color: #f8f8ff; 
+	padding: 3px 10px 3px 10px;
+}
+.Pattern .Foot
+{
+    background-color: #f8f8ff;
+    text-align: center;
+    height: 30px;
+}
+.PatternResult
+{
+    font-size: 12px;
+    background-color: #f8f8ff;
+    color: #000000;
+    text-align: left;
+}
+.PatternResult .Head
+{
+   /* background: rgb(59,103,158); /* Old browsers */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );*/
+    color: #FFFFFF;
+    padding-left: 12px;
+    height: 25px;
+    text-align: left;
+}
+.PatternResult .Category
+{
+    /*font-weight: bold;*/
+    /*background-color: #83c2e0;*/
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .SubCategory
+{
+    text-align: center;
+    /*background-color: #A5D1D1;*/
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .Label
+{
+    /*background-color: #D3E9F3;*/
+    text-align: right;
+    height: 25px;
+}
+.PatternResult .Context
+{
+    border-bottom: dotted 1px #abdcf2;
+    /*background-color: #f8f8ff;*/
+    height: 25px;
+}
+.PatternResult .Foot
+{
+    /*background-color: #BCDDED;*/
+    text-align: center;
+    height: 30px;
+}
+
+.PatternResult .Focus
+{
+    background-color: #8d8d8d;
+    color:#ffffff; 
+}
+
+
+/* ===========================================
+         ModalPopupExtender Control
+============================================== */
+.modalBackground
+{
+    background-color:#333333;
+    filter: alpha(opacity=75);
+    opacity: 0.5;
+}
+.modalWindow
+{
+    background-color: #f8f8ff;
+}
+.modalHead
+{
+    padding: 0px 7px 0px 7px;
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 10pt; 
+	background-color:#ffefd5;
+	/*BACKGROUND-IMAGE: url(../Image/gb_Title.gif);*/ 
+	COLOR: #000000;
+	height:25px;
+	/*
+    background: #99CCFF;
+    padding-left: 5px;
+    padding-right: 5px;*/
+}
+.modalContext
+{
+    background-color: #f8f8ff;
+    height: 100%;
+    border: 3px solid #f8f8ff;
+    padding: 5px;
+}
+.modalb1f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 5px;
+    background: #99CCFF;
+}
+.modalb2f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 3px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+.modalb3f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 2px;
+}
+.modalb4f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 2px;
+    margin: 0 1px;
+}

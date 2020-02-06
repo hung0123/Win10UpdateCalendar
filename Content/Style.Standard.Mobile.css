@@ -1,0 +1,538 @@
+﻿/* ===========================================
+                Body
+============================================== */
+body
+{
+    background-color: #FFFFFF;
+    margin: 0px;
+	font:"微軟正黑體";
+	font-size: 24px; 
+}
+/* ===========================================
+                Input Control
+============================================== */
+.cv
+{
+    overflow: visible;
+    white-space: nowrap;
+    padding: 0px;
+    text-align: left;
+}
+
+.inp, .inp > option
+{
+    font-size: 24px;
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 1px;
+    height:35px;
+}
+.inp[StyleStatus="Disable"], .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+.inp[StyleStatus="Invalid"], .inp[StyleStatus="Invalid"] > option
+{
+    padding: 1px;
+    border: 1px solid #B50000;
+}
+
+.inp:focus, .inp:focus > option
+{
+    padding: 1px;
+   /* background-color: #feffcc; */ 
+}
+
+/* ===========================================
+                Option Control
+============================================== */
+.opt, .opt > option
+{
+    font-size: 24px;
+    background: #fff;
+    padding: 1px;
+    width:24px;
+    height:24px;
+    zoom:1.2;
+}
+.opt[StyleStatus="Disable"], .opt[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+.opt[StyleStatus="Invalid"], .opt[StyleStatus="Invalid"] > option
+{
+    border: 1px solid #B50000;
+}
+.opt:focus, .opt:focus > option
+{
+    height: 20px;
+    padding: 1px;
+   /* background-color: #feffcc; */
+}
+
+/* ===========================================
+                Button Control
+============================================== */
+.btn
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	background-color: #f6f5ea;
+		height:28px;
+		font-size: 24px;
+		color:#000;
+	background-image:url('../Image/001.jpg');
+		text-align: center;
+}
+.btn + .btn
+{
+	margin:0px 0px 0px 10px;
+}
+
+.btn:hover
+{
+}
+.btn[StyleStatus="Disable"]
+{
+}
+a
+{
+}
+a:visited
+{
+}
+a:hover
+{
+}
+/* ===========================================
+                Grid Control
+============================================== */
+.t  
+{   border: 1px solid #333333;	
+}
+.gv
+{
+    font-size: 20px; 
+	color: #333333;
+	/*background-color:#666666;	*/
+	background-color: #FFFFFF;
+}
+.gv th , .gv td
+{
+	border: 1px solid #333333; 
+	border-collapse:collapse;
+	height: 20px;
+}
+.gv a:link    { color: #333333; text-decoration: underline; }
+.gv a:visited { color: #333333; text-decoration: underline; }
+.gv a:hover   { color: #DB4100; text-decoration: underline; }
+.gv a:active  { color: #DB4100; text-decoration: underline; }
+.gvHead
+{    
+    font-weight: bold; 
+	background-color: #BBD9F3; 
+	padding: 3px 10px 3px 10px;
+}
+.gvFoot
+{
+    background-color: #83c2e0;
+}
+.gvRow { font-family: "Verdana", "微軟正黑體"; font-size: 20px; color: #333333; line-height: 36px; background-color: #FFFFFF; padding: 3px 10px 3px 10px;}
+.gvRow a:link    { color: #37659B; text-decoration: underline; }
+.gvRow a:visited { color: #37659B; text-decoration: underline; }
+.gvRow a:hover   { color: #DB4100; text-decoration: underline; }
+.gvRow a:active  { color: #DB4100; text-decoration: underline; }
+.gvAlternate { font-family: "Verdana", "微軟正黑體"; font-size: 20px; color: #333333; line-height: 36px; background-color: #F7F7F7; padding: 3px 10px 3px 10px;}
+.gvAlternate a:link    { color: #37659B; text-decoration: underline; }
+.gvAlternate a:visited { color: #37659B; text-decoration: underline; }
+.gvAlternate a:hover   { color: #DB4100; text-decoration: underline; }
+.gvAlternate a:active  { color: #DB4100; text-decoration: underline; }
+.gvSelect
+{
+	  background-color: #fef9c7;
+	  /*font-weight:bold;*/
+}
+.gvSelect a:link    { color: #37659B; text-decoration: underline; }
+.gvSelect a:visited { color: #37659B; text-decoration: underline; }
+.gvSelect a:hover   { color: #DB4100; text-decoration: underline; }
+.gvSelect a:active  { color: #DB4100; text-decoration: underline; }
+/* ===========================================
+                PagePaging
+============================================== */
+.PagePaging
+{
+    font-size: 24px;
+}
+
+PagePaging .inp, PagePaging .inp > option
+{
+    font-size: 24px;
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 3px;
+}
+PagePaging .inp[StyleStatus="Disable"],PagePaging .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+PagePaging .inp[StyleStatus="Invalid"],PagePaging .inp[StyleStatus="Invalid"] > option
+{
+    padding: 3px;
+    border: 1px solid #B50000;
+}
+
+PagePaging .inp:focus,PagePaging .inp:focus > option
+{
+    padding: 3px;
+    background-color: #feffcc;
+}
+.PageButtons
+{
+    font-size: 24px;
+}
+.PageButtons td { vertical-align:middle;}
+.PageButtons a:link    { font-size: 24px; text-decoration: none; color:#0066cc;}
+.PageButtons a:hover   { font-size: 24px; text-decoration: underline; color:#0066cc;}
+.PageButtons a:active  { font-size: 24px; text-decoration: underline; color:#0066cc;}
+
+.PageButtons .Menu{ font-size: 24px; text-decoration: none; color:#0066cc;}
+.PageButtons .MenuHover{font-size: 24px; text-decoration: underline; color:#0066cc;}
+
+/* ===========================================
+                Tab Control
+============================================== */
+.ajax__tab_tab
+{
+    font-size: 24px;
+    height:36px;
+    vertical-align:middle;
+    width:50px;
+}
+.ajax__tab_header
+{
+    height:36px;
+}
+.ajax__tab_outer
+{
+    height:36px;
+    width:50px;
+}
+.ajax__tab_inner
+{
+    height:36px;
+    width:50px;
+}
+.ajax__tab_tab:hover
+{
+    font-size: 24px;
+    height:36px;
+}
+.ajax__tab_panel
+{
+    font-size: 24px;
+}
+
+/* ===========================================
+                Pattern(查詢、維護、開窗共用)
+============================================== */
+
+.Pattern
+{
+    background-color: #8EC0EC;
+    color: #333333;
+    text-align: left;
+}
+.Pattern .Head
+{   padding: 0px 7px 0px 7px;
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 15pt; 
+	BACKGROUND-IMAGE: url(../Image/gb_Title.gif); 
+	COLOR: #333;
+	height:25px;
+}
+.Pattern .Label
+{   font-size: 24px; 
+	color: #333333; 
+	background-color: #BBDCF7; 
+	padding: 3px 10px 3px 10px;
+}
+.Pattern .Context
+{   font-size: 24px;
+	color: #666666; 
+	background-color: #E3F3FF; 
+	padding: 3px 10px 3px 10px;
+}
+.Pattern .Foot
+{
+    background-color: #E3F3FF;
+    text-align: center;
+    height: 30px;
+}
+.PatternResult
+{
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: left;
+}
+.PatternResult .Head
+{
+    background: rgb(59,103,158); /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+    color: #FFFFFF;
+    padding-left: 12px;
+    height: 25px;
+    text-align: left;
+}
+.PatternResult .Category
+{
+    font-weight: bold;
+    background-color: #83c2e0;
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .SubCategory
+{
+    text-align: center;
+    background-color: #A5D1D1;
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .Label
+{
+    background-color: #D3E9F3;
+    text-align: right;
+    height: 25px;
+}
+.PatternResult .Context
+{
+    border-bottom: dotted 1px #abdcf2;
+    background-color: #ffffff;
+    height: 25px;
+}
+.PatternResult .Foot
+{
+    background-color: #BCDDED;
+    text-align: center;
+    height: 30px;
+}
+/* ===========================================
+         ModalPopupExtender Control
+============================================== */
+.modalBackground
+{
+    background-color:#333333;
+    filter: alpha(opacity=75);
+    opacity: 0.5;
+}
+.modalWindow
+{
+    background-color: White;
+}
+.modalHead
+{
+     padding: 0px 7px 0px 7px;
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 10pt; 
+	BACKGROUND-IMAGE: url(../Image/gb_Title.gif); 
+	COLOR: #333;
+	height:25px;
+	/*
+    background: #99CCFF;
+    padding-left: 5px;
+    padding-right: 5px;*/
+}
+.modalContext
+{
+    background-color: White;
+    height: 100%;
+    border: 3px solid #99CCFF;
+    padding: 5px;
+}
+.modalb1f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 5px;
+    background: #99CCFF;
+}
+.modalb2f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 3px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+.modalb3f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 2px;
+}
+.modalb4f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 2px;
+    margin: 0 1px;
+}
+
+.ajax_tab_my .ajax__tab_header /*整體按鈕底*/{
+font-family:verdana,tahoma,helvetica; /*設定文字*/
+font-size:11px; /*文字大小*/
+background:url("tab-line.gif") repeat-x bottom; /*背景圖片，水平重複，靠下對齊*/
+}
+
+.ajax_tab_my  .ajax__tab_body /*資料區*/{
+font-family:verdana,tahoma,helvetica;/*設定文字*/
+font-size:10pt;/*文字大小*/
+border:1px solid #999999;/*邊框*/
+border-top:0;/*邊框上頭寬度為0 → 就等於沒有上邊框囉*/
+padding:8px; /*文字與邊框間隔*/
+background-color:#ffffff;/*背景顏色*/
+}
+
+.ajax_tab_my .ajax__tab_outer /*預設-右邊*/{
+background:url("../Image/Tab/tab-right.gif") no-repeat right; /*背景圖片，不重複，靠右邊對齊*/
+padding-right:4px; /*右邊距離→為此圖片的寬度，才能顯示圖片喔*/
+height:36px; /*圖片高度*/
+}
+
+.ajax_tab_my .ajax__tab_inner /*預設-左邊*/{
+padding-left:3px;/*左邊距離→為此圖片的寬度*/
+background:url("../Image/Tab/tab-left.gif") no-repeat;/*背景圖片，不重複*/
+}
+
+
+.ajax_tab_my .ajax__tab_tab /*預設-中間*/{
+background:url("../Image/Tab/tab.gif") repeat-x; /*背景圖片，水平重複*/
+height:36px;/*圖片高度*/
+padding:4px; /*文字與圖片邊間隔*/
+margin:0;/*邊界為0*/
+}
+
+.ajax_tab_my  .ajax__tab_hover .ajax__tab_outer /*滑鼠經過-右*/
+{
+	background:url("../Image/Tab/tab-hover-right.gif") no-repeat right; /*背景圖片，不重複，靠右對齊*/
+}
+
+.ajax_tab_my  .ajax__tab_hover .ajax__tab_inner /*滑鼠經過-左*/
+{
+	background:url("../Image/Tab/tab-hover-left.gif") no-repeat; /*背景圖片，不重複*/
+}
+
+
+.ajax_tab_my .ajax__tab_hover .ajax__tab_tab /*滑鼠經過-中*/
+{
+	background:url("../Image/Tab/tab-hover.gif") repeat-x; /*背景圖片，水平重複*/
+}
+
+.ajax_tab_my .ajax__tab_active .ajax__tab_outer/*使用中-右*/
+{
+	background:url("../Image/Tab/tab-active-right.gif") no-repeat right;/*背景圖片，不重複，靠右對齊*/
+}
+
+.ajax_tab_my  .ajax__tab_active .ajax__tab_inner /*使用中-左*/
+{
+	background:url("../Image/Tab/tab-active-left.gif") no-repeat;/*背景圖片，不重複*/
+}
+
+.ajax_tab_my  .ajax__tab_active .ajax__tab_tab /*使用中-中*/
+{
+	background:url("../Image/Tab/tab-active.gif") repeat-x;/*背景圖片，水平重複*/
+}
+
+.labelMobile
+{
+    display: inline;
+}
+
+.regular-checkbox
+{
+    display: none;
+}
+
+.regular-checkbox:enabled + label
+{
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 13px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active
+{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.regular-checkbox:enabled checked + label
+{
+    /*background-color: #e9ecee;*/
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+.regular-checkbox:disabled + label
+{
+    padding: 14px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+.regular-checkbox:checked + label:after
+{
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: -5px;
+    left: 3px;
+    color: #000000;
+}
+.big-checkbox + label
+{
+    padding: 13px;
+}
+.big-checkbox:checked + label:after
+{
+    font-size: 23px;
+    left: 3px;
+}
+.tag
+{
+    font-family: Arial, sans-serif;
+    width: 200px;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}

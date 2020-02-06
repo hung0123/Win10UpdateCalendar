@@ -1,0 +1,176 @@
+﻿/* ===========================================
+                    body
+============================================== */
+body
+{
+    margin: 0px;
+    font-size: medium;
+}
+/* ===========================================
+                Pattern(Query)
+============================================== */
+.tbQuery
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+.tbQuery .Head
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    font-weight: bold;
+    text-align: left;
+    height: 25px;
+    padding: 3px;
+}
+.tbQuery .Label
+{
+    
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: right;
+    height: 25px;
+    padding: 3px;
+}
+.tbQuery .Context
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: left;
+    height: 25px;
+    padding: 3px;
+}
+.tbQuery .Foot
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    height: 25px;
+    padding: 3px;
+}
+/* ===========================================
+                Input Control
+============================================== */
+.inp, .inp > option
+{
+    background-color: #99CCFF;
+    border: 1px solid #000000;
+    font-size: medium;
+}
+.inp[StyleStatus="Invalid"], .inp[StyleStatus="Invalid"] > option
+{
+    color: #FF0000;
+    background-color: #009999;
+    border: 1px solid #000000;
+    font-size: medium;
+}
+.inp[disabled], .inp[disabled] > option
+{
+    background-color: #eeeeee;
+    color: black;
+    border: 1px solid #000000;
+    font-size: medium;
+}
+/* ===========================================
+                Option Control
+============================================== */
+.opt, .opt > option
+{
+    color: #0033CC;
+    font-size: medium;
+}
+.opt[StyleStatus="Invalid"], .opt[StyleStatus="Invalid"] > option
+{
+    color: #FF0000;
+    font-size: medium;
+}
+.opt[disabled], .opt[disabled] > option
+{
+    color: #cccccc;
+    font-size: medium;
+}
+/* ===========================================
+                Validator Control
+============================================== */
+.cv
+{
+    font-size: smaller;
+    text-align: left;
+    padding:0px;
+}
+
+/* ===========================================
+                Button Control
+============================================== */
+.btn
+{
+    width: 80px;
+}
+.btn:hover
+{
+}
+.btn[disabled]
+{
+}
+.btnF
+{
+}
+.btnF:hover
+{
+}
+.btnF[disabled]
+{
+}
+a
+{
+    font-size: medium;
+}
+a:visited
+{
+    font-size: medium;
+}
+a:hover
+{
+    font-size: medium;
+}
+/* ===========================================
+                Grid Control
+============================================== */
+.gv
+{
+    table-layout:fixed;
+}
+.gvHead
+{
+    height: 25px;
+}
+.gvFoot
+{
+    height: 25px;
+}
+.gvRow
+{
+    height: 25px;
+}
+.gvAlternate
+{
+    height: 25px;
+}
+.gvSelect
+{
+    height: 25px;
+}
+
+/* ===========================================
+         ModalPopupExtender Control
+============================================== */
+.modalBackground
+{
+    background-color: black;
+    filter: alpha(opacity=15);
+    opacity: 0.5;
+}
+.modalWindow
+{
+    background-color: White;
+}

@@ -1,0 +1,353 @@
+﻿/* ===========================================
+                Body
+============================================== */
+body
+{
+    background-color: #e9eaec;
+    margin: 0px;
+}
+/* ===========================================
+                Input Control
+============================================== */
+.cv
+{
+    overflow: visible;
+    white-space: nowrap;
+    padding: 0px;
+    text-align: left;
+}
+
+.inp, .inp > option
+{
+    font-size: 15px;
+    border: 1px solid #bbb;
+    background: #fff;
+    width: 100px;
+    padding: 3px;
+}
+.inp[StyleStatus="Disable"], .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+.inp[StyleStatus="Invalid"], .inp[StyleStatus="Invalid"] > option
+{
+    width: 100px;
+    padding: 3px;
+    border: 1px solid #B50000;
+}
+
+.inp:focus, .inp:focus > option
+{
+    width: 100px;
+    padding: 3px;
+    background-color: #feffcc;
+}
+
+/* ===========================================
+                Option Control
+============================================== */
+.opt, .opt > option
+{
+    font-size: 15px;
+    background: #fff;
+    padding: 3px;
+}
+.opt[StyleStatus="Disable"], .opt[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+.opt[StyleStatus="Invalid"], .opt[StyleStatus="Invalid"] > option
+{
+    border: 1px solid #B50000;
+}
+.opt:focus, .opt:focus > option
+{
+    height: 20px;
+    padding: 3px;
+    background-color: #feffcc;
+}
+
+/* ===========================================
+                Button Control
+============================================== */
+.btn
+{
+    height: 21px;
+}
+.btn:hover
+{
+}
+.btn[StyleStatus="Disable"]
+{
+}
+a
+{
+}
+a:visited
+{
+}
+a:hover
+{
+}
+/* ===========================================
+                Grid Control
+============================================== */
+.t
+{
+    background-color: #017eba;
+    border: 1px;
+}
+.gv
+{
+    font-size: 15px;
+    border: 1px solid #fff;
+    background-color: #017eba;
+}
+.gvHead
+{
+    background-color: #83c2e0;
+    color: #000066;
+    height: 25px;
+    border: 1px solid #fff;
+}
+.gvFoot
+{
+    background-color: #83c2e0;
+    height: 25px;
+    border: 1px solid #fff;
+}
+.gvRow
+{
+    background-color: #FFFFFF;
+    height: 25px;
+    border: 1px solid #fff;
+}
+.gvAlternate
+{
+    background-color: #e9eaec;
+    height: 25px;
+    border: 1px solid #fff;
+}
+.gvSelect
+{
+    background-color: #c1e982;
+    height: 25px;
+    border: 1px solid #fff;
+}
+/* ===========================================
+                PagePaging
+============================================== */
+.PagePaging
+{
+    font-size: large;
+}
+.PageButtons
+{
+    font-size: large;
+}
+PageButtons .inp, PageButtons .inp > option
+{
+    font-size: 15px;
+    border: 1px solid #bbb;
+    background: #fff;
+    width: 100px;
+    padding: 3px;
+}
+PageButtons .inp[StyleStatus="Disable"],PageButtons .inp[StyleStatus="Disable"] > option
+{
+    background-color: #f6f5ea;
+    border: 1px solid #c9c7ba;
+    color: #999999;
+}
+PageButtons .inp[StyleStatus="Invalid"],PageButtons .inp[StyleStatus="Invalid"] > option
+{
+    width: 100px;
+    padding: 3px;
+    border: 1px solid #B50000;
+}
+
+PageButtons .inp:focus,PageButtons .inp:focus > option
+{
+    width: 100px;
+    padding: 3px;
+    background-color: #feffcc;
+}
+/* ===========================================
+                Tab Control
+============================================== */
+.ajax__tab_tab
+{
+    font-size: 15px;
+}
+.ajax__tab_tab:hover
+{
+    font-size: 15px;
+}
+.ajax__tab_panel
+{
+    font-size: 15px;
+}
+
+/* ===========================================
+                Pattern(查詢、維護、開窗共用)
+============================================== */
+
+.Pattern
+{
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: left;
+}
+.Pattern .Head
+{
+    background: rgb(59,103,158); /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+    color: #FFFFFF;
+    padding-left: 15px;
+    height: 25px;
+}
+.Pattern .Label
+{
+    padding-left: 20px;
+    border-bottom: 2px solid #c2d6e0;
+    color: #333333;
+    font-size: 15px;
+    background-image: url(../Image/01.gif);
+    height: 30px;
+}
+.Pattern .Context
+{
+    font-size: 15px;
+    border-bottom: 2px solid #c2d6e0;
+}
+.Pattern .Foot
+{
+    background-color: #BCDDED;
+    text-align: center;
+    height: 30px;
+}
+.PatternResult
+{
+    font-size: 15px;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: left;
+}
+.PatternResult .Head
+{
+    background: rgb(59,103,158); /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+    color: #FFFFFF;
+    padding-left: 15px;
+    height: 25px;
+    text-align: left;
+}
+.PatternResult .Category
+{
+    font-weight: bold;
+    background-color: #83c2e0;
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .SubCategory
+{
+    text-align: center;
+    background-color: #A5D1D1;
+    height: 25px;
+    text-align: center;
+}
+.PatternResult .Label
+{
+    background-color: #D3E9F3;
+    text-align: right;
+    height: 25px;
+}
+.PatternResult .Context
+{
+    border-bottom: dotted 1px #abdcf2;
+    background-color: #ffffff;
+    height: 25px;
+}
+.PatternResult .Foot
+{
+    background-color: #BCDDED;
+    text-align: center;
+    height: 30px;
+}
+/* ===========================================
+         ModalPopupExtender Control
+============================================== */
+.modalBackground
+{
+    background-color: black;
+    filter: alpha(opacity=15);
+    opacity: 0.5;
+}
+.modalWindow
+{
+    background-color: White;
+}
+.modalHead
+{
+    background: #99CCFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.modalContext
+{
+    background-color: White;
+    height: 100%;
+    border: 3px solid #99CCFF;
+    padding: 5px;
+}
+.modalb1f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 5px;
+    background: #99CCFF;
+}
+.modalb2f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 3px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+.modalb3f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 1px;
+    margin: 0 2px;
+}
+.modalb4f
+{
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background: #99CCFF;
+    border-right: 1px solid #99CCFF;
+    border-left: 1px solid #99CCFF;
+    height: 2px;
+    margin: 0 1px;
+}

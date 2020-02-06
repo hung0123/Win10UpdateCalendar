@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<Root>
+  <Setting>
+    <TimeS>2020/02/06</TimeS>
+    <TimeE>2020/02/11</TimeE>
+  </Setting>
+  <Detail>
+    <D20200206>
+      <First People="0" Total="8" />
+      <Second People="0" Total="8" />
+    </D20200206>
+    <D20200207>
+      <First People="0" Total="8" />
+      <Second People="0" Total="8" />
+    </D20200207>
+    <D20200208>
+      <First People="0" Total="-1" />
+      <Second People="0" Total="-1" />
+    </D20200208>
+    <D20200209>
+      <First People="0" Total="-1" />
+      <Second People="0" Total="-1" />
+    </D20200209>
+    <D20200210>
+      <First People="0" Total="8" />
+      <Second People="0" Total="8" />
+    </D20200210>
+    <D20200211>
+      <First People="0" Total="8" />
+      <Second People="0" Total="8" />
+    </D20200211>
+  </Detail>
+</Root>
